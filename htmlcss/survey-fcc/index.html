@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <section id="top">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">This survey was build to learn html&css basics by <a
+                href="https://www.freecodecamp.org/">freecodecamp.org</a></p>
+    </section>
+    <form id="survey-form">
+        <p class="form-text">Name</p><input required id="name" type="text" placeholder="Enter your name">
+        <p class="form-text">Email</p><input required id="email" type="email" placeholder="Enter your Email">
+        <p class="form-text">Age (optional)</p><input required id="number" type="number" min="0" max="200"
+            placeholder="Age">
+        <p class="form-text">Which option best describes your current role?</p>
+        <select id="describes">
+            <optgroup label="Select current role">
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learn">Full Time Learner</option>
+                <option value="notsay">Prefer not to say</option>
+                <option value="other">other</option>
+            </optgroup>
+        </select>
+        <p class="form-text">Would you recommend freeCodeCamp to a friend?</p>
+        <section id="radio">
+            <label id="name-label"><input name="favorite" id="definitely" value="definitely"
+                    type="radio">Definitely</label>
+            <label id="email-label"><input name="favorite" id="maybe" value="maybe" type="radio">Maybe</label>
+            <label id="number-label"><input name="favorite" id="notsure" value="notsure" type="radio">Not sure</label>
+        </section>
+        <p class="form-text">Which is your favorite feature of freeCodeCamp</p>
+        <select id="dropdown">
+            <optgroup label="Select an option">
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="opensource">Open Source</option>
+            </optgroup>
+        </select>
+        <p class="form-text">What would you like to see improved? (Check all that apply)</p>
+        <section id="checkbox">
+            <label id="front"><input type="checkbox" value="front">Front-end Projects</label>
+            <label id="back"><input type="checkbox" value="back">Back-end Projects</label>
+            <label id="data"><input type="checkbox" value="data">Data Visualization</label>
+            <label id="challenges"><input type="checkbox" value="challenges">Challenges</label>
+            <label id="opensource"><input type="checkbox" value="opensource">Open Source Community</label>
+            <label id="gitter"><input type="checkbox" value="gitter">Gitter help rooms</label>
+            <label id="videos"><input type="checkbox" value="videos">Videos</label>
+            <label id="city"><input type="checkbox" value="city">City Meetups</label>
+            <label id="wiki"><input type="checkbox" value="wiki">Wiki</label>
+            <label id="forum"><input type="checkbox" value="forum">Forum</label>
+            <label id="additional"><input type="checkbox" value="additional">Additional Courses</label>
+        </section>
+        <p class="form-text">Any comments or suggestions?</p><textarea id="comments"></textarea>
+        <button id="submit" value="submit">Submit</button>
+</body>
+
+</html>

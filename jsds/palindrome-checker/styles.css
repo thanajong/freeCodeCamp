@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'GeistMono-Medium';
+    src: url(GeistMono-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'JetBrainsMono-Regular';
+    src: url(JetBrainsMono-Regular.ttf);
+}
+
+body {
+    /* font-family: 'GeistMono-Medium'; */
+    font-family: 'JetBrainsMono-Regular';
+    background-color: #0a0a23
+}
+
+#app-box {
+    width: 500px;
+    height: 300px;
+    border: 3px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+#palindrome-header {
+    text-align: center;
+}
+
+#user-input {
+    align-self: center;
+    width: 300px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-family: 'JetBrainsMono-Regular';
+
+}
+
+#user-button {
+    align-self: center;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 20px;
+    /* background-color: white; */
+    /* color: black; */
+    border: 2px solid #555555;
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    font-family: 'JetBrainsMono-Regular';
+}
+
+#user-button:hover {
+    color: white;
+}
+
+#author {
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 20px;
+    color: azure;
+}

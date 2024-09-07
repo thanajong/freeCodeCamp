@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'GeistMono-Medium';
+    src: url(GeistMono-Medium.ttf);
+}
+
+body {
+    font-family: 'GeistMono-Medium';
+    height: 100%;
+    padding: 10%;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+#radio {
+    display: flex;
+    flex-direction: column;
+}
+
+#checkbox {
+    display: flex;
+    flex-direction: column;
+}

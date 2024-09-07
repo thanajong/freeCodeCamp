@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'GeistMono-Medium';
+    src: url(GeistMono-Medium.ttf);
+}
+
+body {
+    font-family: 'GeistMono-Medium';
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    border: 3px solid;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+#img-caption {
+    font-style: italic;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'GeistMono-Medium';
+    src: url(GeistMono-Medium.ttf);
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        display: none;
+    }
+
+    body {
+        line-height: 2;
+    }
+}
+
+body {
+    font-family: 'GeistMono-Medium';
+    height: 100%;
+    line-height: 1.8;
+}
+
+#main-doc {
+    border: 5px solid;
+    /* border-radius: 5px; */
+    padding: 2%;
+}
