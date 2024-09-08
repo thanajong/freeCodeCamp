@@ -9,10 +9,16 @@
 <body>
     <main id="app-box">
         <header id="palindrome-header"><h1>Palindrome Checker</h2></header>
-        <input id="user-input" type="text" placeholder="Enter your string here."><br>
-        <input id="user-button" type="button" value="Check">
-        <div id="output"></div>
+        <input id="text-input" type="text" placeholder="Enter your string here."><br>
+        <!-- <input id="user-button" type="button" value="Check"> -->
+        <button id="check-btn" onclick="getInput()">Check</button>
+        <div id="result">
+            <!-- <br><p>✅❎</p> -->
+            <p id="iscorrect"></p>
+            <p id="isnotcorrect"></p>
+        </div>
     </main>
     <footer id="author"><p>Author: Thanapat Jonglertthiti</p></footer>
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
